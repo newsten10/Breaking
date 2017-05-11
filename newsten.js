@@ -68,11 +68,11 @@ function recent_post_content(){
     s += " height='25'/>";
     s += " </a>";
     s += "</div>";
-    s += "<div style='float:left; text-align:right; margin-left:0px;'>";
+    s += "<div style='float:left; text-align:right; margin-left:10px;'>";
     s += "";
     s += "</div>";
     }
-    s += "  <marquee style='float:left; margin-left:10px; width:98%' scrollAmount='"+scrolling_speed+"'>";
+    s += "  <marquee style='float:left; margin-left:0px; width:98%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
