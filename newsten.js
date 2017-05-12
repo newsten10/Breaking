@@ -50,7 +50,7 @@ function recent_post_style(){
     var s = "<style type='text/css'>";
     s += "#recent_post{";
   s += "position:absolute;";
-    s += "margin:0px;";
+    s += "margin:10px;";
     s += "padding: 5px 2px 2px;";
     s += "width:auto;";
     s += "background:#fff;";
@@ -60,7 +60,7 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='NewsTEN Ticker'>";
+    var s = "<div id='recent_post' title='NewsTEN Breaking Ticker'>";
     if(info_text){
 	s += "<div style='float:left'>";
     s += " <a href='"+feed_url+"'>";
@@ -72,7 +72,7 @@ function recent_post_content(){
     s += "";
     s += "</div>";
     }
-    s += "  <marquee style='float:left; margin-left:0px; width:98%' scrollAmount='"+scrolling_speed+"'>";
+    s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
