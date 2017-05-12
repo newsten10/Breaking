@@ -50,7 +50,7 @@ function recent_post_style(){
     var s = "<style type='text/css'>";
     s += "#recent_post{";
   s += "position:absolute;";
-    s += "margin:10px;";
+    s += "margin:0px;";
     s += "padding: 5px 2px 2px;";
     s += "width:auto;";
     s += "background:#fff;";
