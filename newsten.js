@@ -60,7 +60,7 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='NewsTEN Breaking Ticker'>";
+    var s = "<div id='recent_post' title='NewsTEN Breaking'>";
     if(info_text){
 	s += "<div style='float:left'>";
     s += " <a href='"+feed_url+"'>";
@@ -68,11 +68,11 @@ function recent_post_content(){
     s += " height='25'/>";
     s += " </a>";
     s += "</div>";
-    s += "<div style='float:left; text-align:right; margin-left:10px;'>";
+    s += "<div style='float:left; text-align:right; margin-left:0px;'>";
     s += "";
     s += "</div>";
     }
-    s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
+    s += "  <marquee style='float:left; margin-left:5px; width:82%' scrollAmount='"+scrolling_speed+"'>";
     for(var i=0; i<latest_post; i++){
         var recent_post_entries = entries[i];
         s += "<a href='"+recent_post_entries.href+"' ";
@@ -82,7 +82,7 @@ function recent_post_content(){
     }
     s += "</marquee>";
     if(close_button){
-	s += "<div style='float:right; margin-right:0px;'>";
+	s += "<div style='float:right; margin-right:5px;'>";
     s += "<a href='javascript:void(0)' onclick='document.getElementById(\"recent_post\").style.display=\"none\"'>";
     s += "(x)";
     s += "</a>";
