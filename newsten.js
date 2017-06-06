@@ -78,7 +78,7 @@ function recent_post_content(){
         s += "<a href='"+recent_post_entries.href+"' ";
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()'";
         s += ">" + recent_post_entries.title + "</a>";
-        if(i != latest_post-1){s += "  <img src='https://1.bp.blogspot.com/-sjsJDG3r0IU/WTb67P4c9yI/AAAAAAAAJR8/It4T6Nh81u8VrNsbI2DGNow4sLPkpRNdgCLcB/s1600/NTB.gif'";}
+        if(i != latest_post-1){s += "  <img src='https://1.bp.blogspot.com/-FN7v1af4yrE/WTcOkhJE2dI/AAAAAAAAJSE/69Qlff6_Wy0oC5__dkPUh-PmR-0w0smcgCLcB/s1600/BNT.gif' ";}
     }
     s += "</marquee>";
     if(close_button){
